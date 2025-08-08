@@ -1,0 +1,54 @@
+= Mimoto Documentation
+:toc:
+:icons: font
+:sectnums:
+
+Welcome to the official documentation for **Mimoto**.
+
+Mimoto is a powerful tool designed to simplify and enhance your workflow. This documentation will guide you through its features, installation, and usage.
+
+== Features
+
+- Fast and efficient processing
+- Easy integration with existing systems
+- Modular architecture
+- Comprehensive API
+
+== Getting Started
+
+To get started with Mimoto, follow these steps:
+
+. Install Mimoto using your preferred package manager.
+. Configure the settings as per your requirements.
+. Start using the core features.
+
+== Installation
+
+[source,sh]
+----
+npm install mimoto
+----
+
+== Usage Example
+
+[source,js]
+----
+import { Mimoto } from 'mimoto';
+
+const mimoto = new Mimoto();
+mimoto.run();
+----
+
+== Documentation Links
+
+- xref:features.adoc[Features]
+- xref:installation.adoc[Installation]
+- xref:usage.adoc[Usage]
+
+== Community & Support
+
+For questions or support, visit our community forums or contact support.
+
+== License
+
+Mimoto is released under the MIT License.
